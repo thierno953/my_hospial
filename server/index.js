@@ -20,7 +20,7 @@ app.use("/users", userRouter);
 app.use("/patient", patientUser);
 app.use("/doctor", doctorUser);
 app.get("/", (req, res) => {
-  res.send("Welcome to person API");
+  res.send("Welcome to hospital API");
 });
 
 const port = process.env.PORT || 5000;

@@ -1,6 +1,6 @@
 .about-content {
     margin: 0px 10px;
-    min-height: 60vh;
+    min-height: 65vh;
     padding-top: 40px;
 }
 .about {
@@ -25,9 +25,7 @@
   font-size: 30px;
 
 }
-.info_2 p {
-    padding-top: 10px;
-}
+
 .acount {
     display: flex;
     align-items: center;

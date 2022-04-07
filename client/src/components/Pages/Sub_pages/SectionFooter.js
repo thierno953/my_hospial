@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { InnerLayout } from "../../../Layouts";
 
-
 /*eslint-disable*/
 function SectionFooter() {
   return (
@@ -11,49 +10,59 @@ function SectionFooter() {
       <InnerLayout>
         <div className="f-inner">
           <ul>
-            <h4 className="f-title">Découvrez</h4>
+            <h4 className="f-title">Discover</h4>
             <li className="nav-item">
-              <Link to="/register">Devenir prestataire</Link>
-              <br />
-              <Link to="/people">Demander un service</Link>
-              <br />
+              <a href="#">Html</a>
+            </li>
+            <li className="nav-item">
+              <a href="#">Css</a>
+            </li>
+            <li className="nav-item">
+              <a href="#">React</a>
+            </li>
+
+            <li className="nav-item">
+              <a href="#">Redux</a>
+            </li>
+            <li className="nav-item">
+              <a href="#">ExpressJS</a>
             </li>
           </ul>
 
           <ul>
-            <h4 className="f-title">À propos </h4>
+            <h4 className="f-title">Blogs </h4>
             <li className="nav-item">
-              <a href="#">Accueil</a>
+              <Link to="/">Home</Link>
             </li>
-
+            <li className="nav-item">
+              <Link to="/about">About</Link>
+            </li>
             <li className="nav-item">
               <Link to="/blog">Blog</Link>
             </li>
-            <li className="nav-item">
-              <Link to="/about">A propos</Link>
-            </li>
+
             <li className="nav-item">
               <Link to="/service">Service</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/staff">Doctors</Link>
+            </li>
           </ul>
 
           <ul>
-            <h4 className="f-title">Besoin d’un service </h4>
-
+            <h4 className="f-title">Need a Service</h4>
+        
             <li className="nav-item">
-              <p>thiernobarry554@gmail.com</p>
-              <br />
-              <p>+32 466 240 103</p>
+              <a href="#">thiernobarry554@gmail.com</a>
+            </li>
+            <li>
+            <a href="#">+32 466 240 103</a>
             </li>
           </ul>
           <ul>
-            <h4 className="f-title">Infos</h4>
+            <h4 className="f-title">Info</h4>
             <li className="nav-item">
-              <p>
-                Proposition établie par un Jobber <br />
-                <br />
-                en réponse à un Besoin d'un Posteur.
-              </p>
+              <a href="#">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</a>
             </li>
           </ul>
         </div>

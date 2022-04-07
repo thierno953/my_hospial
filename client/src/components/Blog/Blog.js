@@ -16,7 +16,7 @@ function Blog() {
           <Title
             name={"Our Recent Blogs"}
             para={
-              "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions."
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             }
           />
         </div>

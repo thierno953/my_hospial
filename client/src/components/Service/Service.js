@@ -16,7 +16,7 @@ function Service() {
           <Title
             name={"Our Recent Services"}
             para={
-              "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions."
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             }
           />
         </div>

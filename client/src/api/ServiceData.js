@@ -7,32 +7,32 @@ const ServiceData = [
   {
     id: 1,
     image: Image1,
-    title: "Le site internet d’OPISTON est accessible pour tout le monde ",
+    title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description:
-      "et met à la disposition de tout ceux qui en ont besoin, des prestataires de services en BTP, Informatique, Electricité, Travaux ménagers, Événementiel, Communication.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Le site internet d’OPISTON est accessible pour tout le monde ",
+    title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description:
-      "et met à la disposition de tout ceux qui en ont besoin, des prestataires de services en BTP, Informatique, Electricité, Travaux ménagers, Événementiel, Communication.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
 
   {
     id: 3,
     image: Image3,
-    title: "Le site internet d’OPISTON est accessible pour tout le monde ",
+    title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description:
-      "et met à la disposition de tout ceux qui en ont besoin, des prestataires de services en BTP, Informatique, Electricité, Travaux ménagers, Événementiel, Communication.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
 
   {
     id: 4,
     image: Image4,
-    title: "Le site internet d’OPISTON est accessible pour tout le monde ",
+    title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     description:
-      "et met à la disposition de tout ceux qui en ont besoin, des prestataires de services en BTP, Informatique, Electricité, Travaux ménagers, Événementiel, Communication.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
 ];
 

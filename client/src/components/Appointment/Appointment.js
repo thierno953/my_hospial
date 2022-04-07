@@ -104,7 +104,7 @@ const Appointment = () => {
               <i className="fa-brands fa-ioxhost">Hospice</i>
             </h3>
             <h4>Servicing Hours</h4>
-            <p>On sait depuis longtemps que travailler avec du texte lisible</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <div className="info_flex">
               <div className="info_padd">
                 <p>Monday-Friday</p>

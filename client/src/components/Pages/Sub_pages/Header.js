@@ -10,10 +10,10 @@ const Header = () => {
       <NavStyled>
         <div className="header-content">
           <h1>
-            Trouve un <span>service</span> deviens <br />
-            jobber
+          NEW <span>INFORMATION</span> SYSTEM 
+            
           </h1>
-          <p>Trouves ton service et rend service</p>
+          <p>What is Lorem Ipsum?</p>
 
           <Link to="/service">Services</Link>
         </div>
@@ -74,9 +74,9 @@ const NavStyled = styled.header`
           font-size: 3rem;
         }
         h1 {
-          font-size: 3rem;
+          font-size: 2rem;
           span {
-            font-size: 3rem;
+            font-size: 2rem;
     
           }
         }

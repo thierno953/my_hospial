@@ -7,34 +7,34 @@ const SlideData = [
   {
     id: 1,
     image: Slide1,
-    name: "James Gun",
-    title: "Project Manager",
+    name: "Marion Collard",
+    title: "Kinésitherapie",
     quote:
-      "Proposition établie par un Jobber en réponse à un Besoin d'un Posteur et au sein de laquelle le Jobber décrit la mission qu'il peut remplir et le prix.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
   },
   {
     id: 2,
     image: Slide2,
-    name: "James Van",
-    title: "Project Manager",
+    name: "Ludo Hezman",
+    title: "Neurologie",
     quote:
-      "Proposition établie par un Jobber en réponse à un Besoin d'un Posteur et au sein de laquelle le Jobber décrit la mission qu'il peut remplir et le prix.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
   },
   {
     id: 3,
     image:Slide3,
-    name: "James Leon",
-    title: "Project Manager",
+    name: "Axel Yve",
+    title: "Neuropsychologue",
     quote:
-      "Proposition établie par un Jobber en réponse à un Besoin d'un Posteur et au sein de laquelle le Jobber décrit la mission qu'il peut remplir et le prix.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
   },
   {
     id: 4,
     image: Slide4,
-    name: "James Mosely",
-    title: "Project Manager",
+    name: "Sylvain Renard",
+    title: "Orthopedie",
     quote:
-      "Proposition établie par un Jobber en réponse à un Besoin d'un Posteur et au sein de laquelle le Jobber décrit la mission qu'il peut remplir et le prix.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when",
   },
 ];
 
