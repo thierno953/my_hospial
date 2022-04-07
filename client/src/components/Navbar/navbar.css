@@ -1,0 +1,143 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-size: 10px;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #0a1930;
+  margin: 0px 10px;
+}
+
+.logo-text span {
+  font-weight: 600;
+  color: orangered;
+}
+
+.nav-links {
+  display: flex;
+  color: #0a1930;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #0a1930;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+.nav-links a:hover,
+#nav-links-mobile a:hover {
+  color: orangered;
+}
+
+.navbar .menu-icons {
+  background: transparent;
+  border: none;
+  display: none;
+  margin: 0px 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 769px) {
+  /* hide nav button on navbar */
+  .nav-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-btn {
+    display: block;
+    color: #0a1930;
+  }
+
+  .nav-links {
+    display: none;
+    border: 2px solid #fff;
+    z-index: 111;
+  }
+
+  .navbar .menu-icons {
+    display: block;
+    color: #0a1930;
+  }
+
+  .navbar #nav-links-mobile,
+  .navbar #nav-links-mobile-hide {
+    display: block;
+    position: absolute;
+    list-style: none;
+    background-color: #272a33;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    transition: all 0.3s;
+    border-top: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+
+  .navbar #nav-links-mobile {
+    animation: slide-in 0.5s ease-in-out;
+  }
+
+  .navbar #nav-links-mobile-hide {
+    left: -100%;
+    animation: slide-out 0.5s ease-in-out;
+  }
+  @keyframes slide-out {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .navbar #nav-links-mobile li,
+  .navbar #nav-links-mobile-hide li {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    margin: 0 30px;
+  }
+
+  .navbar #nav-links-mobile li:last-child {
+    border-bottom: none;
+  }
+
+  .navbar #nav-links-mobile li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .navbar #nav-links-mobile a:hover {
+    color: orangered;
+  }
+}
